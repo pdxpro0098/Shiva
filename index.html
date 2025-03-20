@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+    </style>
+    <title>siliguri</title>
+</head>
+
+
+<body>
+    <nav class=" navbar navbar-expand bg-dark navbar-dark">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Brand -->
+            <a class="navbar-brand fw-bold" href="#">Siliguri.x</a>
+
+            <!-- Navbar Links (Always Visible) -->
+            <ul class="navbar-nav d-flex flex-row ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-semibold" href="#">Login</a>
+                </li>
+                <li class="nav-item ms-3">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=916296210885">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                            viewBox="0 0 48 48">
+                            <path fill="#fff"
+                                d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z">
+                            </path>
+                            <path fill="#fff"
+                                d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z">
+                            </path>
+                            <path fill="#cfd8dc"
+                                d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z">
+                            </path>
+                            <path fill="#40c351"
+                                d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z">
+                            </path>
+                            <path fill="#fff" fill-rule="evenodd"
+                                d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="text-center">
+            <h3 class="fw-bold">Call Girls in Siliguri & Escorts with Original Photos</h3>
+            <p class="lead">
+                Life has many aspects to enjoy, and one of the best experiences is with Call Girls in Siliguri.
+                Find a gorgeous escort girl with whom you can spend quality time from the listings below:
+            </p>
+        </div>
+        <!-- Escort Listings -->
+        <div class="row gy-4">
+
+
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-1.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">SILIGURI 100% SAFE AND SECURE TODAY LOW PRICE</h5>
+                        <p class="card-text">
+                            High profile call girls and model escort services available. Full privacy and secure
+                            meetings at hotels or home.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-2.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">VIP High quality safe secure call girl service 24 hours-aid</h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100%
+                            Satisfaction and Unlimited Enjoyment. Any Time for Models/ women seeking men in royal call
+                            girl High class luxury and
+                            premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-3.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri High profile college girls available full enjoy full satisfaction.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100%
+                            Satisfaction and Unlimited Enjoyment. Any Time for Models/ women seeking men in royal call
+                            girl High class luxury and
+                            premium call girl agency.
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-4.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri ✅☎️ 100% guaranteed service provide 𝗟𝗢𝗪🥰𝗣𝗥𝗜𝗖𝗘 💯
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100%
+                            Satisfaction and Unlimited Enjoyment. Any Time for Models/ women seeking men in royal call
+                            girl High class luxury and
+                            premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-5.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ✅✅ LOW PRICE🔸✅ SERVICE AVAILABLE 100% SAFE AND SECURE UNLIMITED ENJOY.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100%
+                            Satisfaction and Unlimited Enjoyment. Any Time for Models/ women seeking men in royal call
+                            girl High class luxury and
+                            premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-6.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri call girls service available independent college girls.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-7.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            LOW COST/// ✅ BEST GENUINE CALL GIRLS SERVICE ALL TYPES SERVICE UNLIMITED
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-8.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Reliable and efficient service available now. Low prices, guaranteed satisfaction.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-9.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            24-hour service in Siliguri: High-quality assistance, safe and secure.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-10.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Professional and dependable services. Enjoy complete peace of mind.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-11.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Affordable services in Siliguri: 100% guaranteed, safe and secure.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-12.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Low-cost, genuine service in Siliguri: All types of assistance available.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 13 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-14.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Secure and confidential services, available around the clock.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 15 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-15.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            High-quality service at low prices in Siliguri: Satisfaction guaranteed.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 16 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-16.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Reliable and trusted services, available 24/7.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 17 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-18.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Your satisfaction is our priority. Safe and secure services.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 19 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-19.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Professional assistance, low prices, and complete security.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 20 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-20.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Dependable service, affordable rates, and guaranteed satisfaction.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 21 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-21.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Secure, reliable, and affordable services available now.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 22-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-22.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: 24-hour assistance, genuine service, and low costs.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 23-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-23.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Experience reliable and secure services.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 24-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <img src="Images/img-24.jpeg" class="w-100 img-fluid" alt="Profile"
+                        style="max-height: 300px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Siliguri: Genuine and affordable services, available anytime.
+                        </h5>
+                        <p class="card-text">
+                            Call Girls VIP Service..⭐⭐⭐⭐⭐ Booking Safe & Secure High-Class girl women sucking men
+                            Services at Affordable Rate 100% Satisfaction and Unlimited Enjoyment. Any Time for Models/
+                            women seeking men in royal call girl High class luxury and premium call girl agency.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a href="tel:6296210885" class="btn btn-primary">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=916296210885" class="btn btn-success">
+                                <i class="fab fa-whatsapp"></i> Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 text-center">
+        <div class="container">
+            <p class="small">Siliguri.x does not intervene in relationships between end users and advertisers.</p>
+            <p class="small">
+                This website only allows adult individuals to advertise their time and companionship. Any other service
+                is a private matter between consenting adults.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tailwindcss JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+</body>
+
+</html>
